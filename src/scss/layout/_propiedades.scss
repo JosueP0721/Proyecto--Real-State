@@ -22,7 +22,7 @@
     &__imagen {
         // Por cada pixel horizontal da uno vertical
         aspect-ratio: 10 / 6;
-        background-size: cover;
+        background-size: auto 150%;
         position: relative;
     }
     @for $i from 1 through 6 {
